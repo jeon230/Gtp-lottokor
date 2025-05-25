@@ -24,3 +24,4 @@ python result-gpu.py
 - 최근 20회 출현 빈도 점수
 - 총합 범위 90~180
 - 과거 당첨 번호와의 중복 제외
+"# gtp-lottokor" 
