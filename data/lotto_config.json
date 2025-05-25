@@ -1,0 +1,105 @@
+{
+  "output_directory": "E:/@lotto/추첨결과",
+  "excluded_numbers_file": "E:/@lotto/excluded_numbers.txt",
+  "latest_data_file": "E:/@lotto/로또번호1-1172.xlsx",
+  "filter_settings": {
+    "required_numbers": [],
+    "max_consecutive": 2,
+    "max_same_last_digit": 2,
+    "even_odd_allowed": [
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "low_number_limit": 2,
+    "high_number_limit": 3,
+    "low_number_range": [
+      1,
+      10
+    ],
+    "high_number_range": [
+      41,
+      45
+    ],
+    "recent_hit_check": {
+      "enabled": true,
+      "recent_rounds": 10,
+      "max_allowed": 4
+    },
+    "exclude_if_overlap_with_last_winner": 3,
+    "multiples_filter": {
+      "exclude_if_more_than_two": [
+        2,
+        3
+      ],
+      "prefer_if_contains_at_least": [
+        5
+      ]
+    },
+    "zone_distribution": {
+      "enabled": true,
+      "zones": {
+        "zone1": [
+          1,
+          15
+        ],
+        "zone2": [
+          16,
+          30
+        ],
+        "zone3": [
+          31,
+          45
+        ]
+      },
+      "max_in_one_zone": 4
+    },
+    "position_balance": {
+      "enabled": true,
+      "max_from_one_row": 4,
+      "max_from_one_col": 4
+    },
+    "pattern_avoidance": {
+      "avoid_zigzag": true,
+      "avoid_bingo": true,
+      "avoid_past_similar": true
+    },
+    "group_exclusion": {
+      "exclude_groups": [
+        [
+          7,
+          14,
+          21,
+          28
+        ],
+        [
+          8,
+          18,
+          28,
+          38
+        ]
+      ]
+    },
+    "expected_number_match": {
+      "enabled": true,
+      "expected_numbers": [
+        8,
+        18,
+        28,
+        38,
+        22,
+        33
+      ],
+      "min_match": 2
+    }
+  }
+}

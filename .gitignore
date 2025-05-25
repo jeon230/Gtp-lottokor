@@ -1,0 +1,8 @@
+# 결과 파일 및 캐시 무시
+__pycache__/
+results/
+*.xlsx
+*.pdf
+*.html
+디버그_로그.txt
+추천_번호결과.txt
